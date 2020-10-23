@@ -1,8 +1,8 @@
-## Introduction to V Programming
+# Introduction to V Programming
 
 V lang is a simple, fast, safe, compiled language for developing maintainable software. Despite being simple, V gives a lot of power to the developer and can be used in pretty much every field, including systems programming, webdev, gamedev, GUI, mobile (wip), science, embedded, tooling, etc.
 
-# Why V ?
+## Why V-lang ?
 
 **Performance**
       As fast as C (V's main backend compiles to human readable C)
