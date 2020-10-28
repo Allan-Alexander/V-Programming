@@ -41,7 +41,15 @@ OR
 println("Hello World")
 
 ```
-fn main() is by default present
-Both works
+fn main() is by default present<br>
+Both works !!
+
+### Variables
+
+ lets print names......<br>
+ for this you need to import 'os'.<br>
+ 'os' is a default lib used to perform I/O operations.<br>
+
+
 
 
