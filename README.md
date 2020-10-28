@@ -47,9 +47,22 @@ Both works !!
 ### Variables
 
  lets print names......<br>
- for this you need to import 'os'.<br>
+ for this you need to import 'os'.
  'os' is a default lib used to perform I/O operations.<br>
 
+```
 
+import os
+name := os.input("Enter your name: ")
+println("Hello $name")
 
+```
+'input' is the method of 'os' library.'$' is used to print the value present in 'name' 
+   input value is of type **"string"** <br>
+   To request for name without any description like 'Enter your name: ' just use -- os.input("")<br><br>
 
+   Variables are declared and initialized with `:=`. This is the only way to declare variables in V.<br> 
+   This means that variables always have an initial value. This is done to improve memory management.<br><br>
+
+   variables are by default private and immutable.<br>
+   lets make them mutable....
