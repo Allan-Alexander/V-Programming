@@ -98,21 +98,20 @@ println("My age is $age++")       // o/p:      My age is 21++
 
 // Correct way
 print("My age is ")
-println(age+1)                   // o/p:       My age is 22 
-                                 // Here mut is not required as we are not changing the value present in age  
+println(age+1)                    // o/p:       My age is 22 
+                                  // Here mut is not required as we are not changing the value present in age  
 //        OR
-// println(++age)                  // for this to work add 'mut' before 'age'         
-                                   //* o/p:       error: expr(): bad token `++`
+// println(++age)                 // for this to work add 'mut' before 'age'         
+                                  //* o/p:       error: expr(): bad token `++`
 
-                                   explanation: not supported in v.
+                                  // explanation: not supported in v.
 
-                                   */  
-age++ println(age)                 // another way of using ++age                
+                                  */  
+age++ println(age)                // another way of using ++age                
 
-                                // o/p:        warning: `++` operator can only be used as a statement
-println(age++)                  //             21   
-println(age)                    //             22  
-
+                                  // o/p:        warning: `++` operator can only be used as a statement
+println(age++)                    //             21   
+println(age)                      //             22  
 
 
 ```
