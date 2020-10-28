@@ -50,7 +50,7 @@ Both works !!
  for this you need to import 'os'.
  'os' is a default lib used to perform I/O operations.<br>
 
-```
+```v
 
 import os
 name := os.input("Enter your name: ")
@@ -66,3 +66,17 @@ println("Hello $name")
 
    variables are by default private and immutable.<br>
    lets make them mutable....
+
+### Mutable Variables
+```v
+import os
+mut name := os.input("Enter your name: ")
+println("Hello $name")
+name      = os.input("Change name to --> ")
+println("New name entered:  $name")
+```
+Here to change the value we DONT use ':='.<br>
+':=' is used to initialize and declare to assign USE "=".<br>
+return type of 'os.input' is  **STRING**. 'println' takes only a single argument.
+
+TRY getting your age and id using 'os.input'  
