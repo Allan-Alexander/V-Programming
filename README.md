@@ -77,6 +77,43 @@ println("New name entered:  $name")
 ```
 Here to change the value we DONT use ':='.<br>
 ':=' is used to initialize and declare to assign USE "=".<br>
-return type of 'os.input' is  **STRING**. 'println' takes only a single argument.
+return type of 'os.input' is  **"string"**. 'println' takes only a single argument.
 
 TRY getting your age and id using 'os.input'  
+
+### Numbers
+```v
+mut age := 21
+println("My age is $age")
+```
+Here the value of age is int which is represented as i32 (int) and i64 (long) ..... which you will see in the next module.
+The value of age is assigned by default by the compiler. You can change that by type casting which would be covered in the next module.
+Lets try to increment the age by 1
+
+```v
+
+println("My age is $age+1")       // o/p:      My age is 21+1                            
+// println("My age is",age+1)     // o/p:      error: too many arguments in call to `println` (2 instead of 1)  
+println("My age is $age++")       // o/p:      My age is 21++
+
+// Correct way
+print("My age is ")
+println(age+1)                   // o/p:       My age is 22 
+                                 // Here mut is not required as we are not changing the value present in age  
+//        OR
+// println(++age)                  // for this to work add 'mut' before 'age'         
+                                   //* o/p:       error: expr(): bad token `++`
+
+                                   explanation: not supported in v.
+
+                                   */  
+age++ println(age)                 // another way of using ++age                
+
+                                // o/p:        warning: `++` operator can only be used as a statement
+println(age++)                  //             21   
+println(age)                    //             22  
+
+
+
+```
+
