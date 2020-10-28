@@ -14,7 +14,6 @@ V lang is a simple, fast, safe, compiled language for developing maintainable so
 **Fast compilation**
       V compiles between ≈80k (Clang backend) and ≈1 million (x64 and tcc backends) lines of code per second per CPU core.
       (Intel i5-7500, SM0256L SSD, no optimization)
-
       V is written in V and compiles itself in under a second. 
 
 **Small and easy to build compiler**
