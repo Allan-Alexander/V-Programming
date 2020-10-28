@@ -27,26 +27,19 @@ Get your changes instantly without recompiling.
 
 Since you also don't have to get to the state you are working on after every compilation, this can save a lot of precious minutes of your development time.
 
-### Markdown
+### Hello World
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```v
+fn main(){
+	println("Hello World")
+}
 
-```markdown
-Syntax highlighted code block
+```
+OR
 
-# Header 1
-## Header 2
-### Header 3
+```v
+println("Hello World")
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
