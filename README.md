@@ -115,4 +115,12 @@ println(age)                      //             22
 
 
 ```
+## What are STATEMENTS ?
+   
+   It is something that doesn't "have" a value or assigned a value.
+   You can write several statements on the same line if you want, separated only by whitespace
+   a := 2 + 2 for example is a statement 
+   while just 2 + 2 is an expression.
+   
+   
 
