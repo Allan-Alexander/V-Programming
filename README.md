@@ -138,7 +138,7 @@ println(age)                      //             22
    println("user: $user  user length: $length")
 ```
 
-   /*   I N I T I A L I Z  I N G   A R R A Y   P R O P R T I E S   */
+   Initializing array property 
 ```v
    arr := []int{ len: 5, init : -1}
 ```
