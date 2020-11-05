@@ -122,5 +122,33 @@ println(age)                      //             22
    a := 2 + 2 for example is a statement 
    while just 2 + 2 is an expression.
    
-   
+### Arrays
+
+
+   To declare and initialise an Array
+   ```v
+   mut num := [1,2,3]
+   println(num)
+   println(num.len) // o/P: "3"
+   num = []
+   println(num)      // Array is now empty
+
+   user := []int{}   // Declare an empty array
+   length := user.len
+   println("user: $user  user length: $length")
+```
+
+   /*   I N I T I A L I Z  I N G   A R R A Y   P R O P R T I E S   */
+```v
+   arr := []int{ len: 5, init : -1}
+```
+
+   The type of an array is determined by the first 
+   element of that array.<br> 
+   If V is unable to infer the type of an array, the user can 
+   explicitly specify it for the first element: [byte(16), 32, 64, 128]. 
+   V arrays are homogeneous (all elements must have the same type). 
+   This means that code like [1, 'a'] will not compile.
+
+
 
