@@ -150,5 +150,39 @@ println(age)                      //             22
    V arrays are homogeneous (all elements must have the same type). 
    This means that code like [1, 'a'] will not compile.
 
+#### Methods in Arrays
 
 
+   max element in an array can be found using arrays.max<int>(num)
+   method.
+   min element in an array can be found using arrays.min<int>(num)
+   method.
+   To get the index of max element :-
+   arrays.idx_max<int>(num)
+   To get the index of min element :-
+   arrays.idx_min<int>(num)
+   To shuffle the first n arrays
+   arrays.shuffle<int>(mut num, n)
+	where n is the first n elements to be shuffled
+   
+   ```v
+   import arrays
+
+   mut num := [1,2,3,4]
+   println(num.len)
+
+   println(arrays.max<int>(num))           // max element
+   println(arrays.min<int>(num))           // min element
+   println(arrays.idx_max<int>(num))       // index of max
+   println(arrays.idx_min<int>(num))       // index of min
+
+   num1 := [5,6,7]
+   println(arrays.merge<int>(num , num1))  // merge
+      /*  OR  */  
+   num2 := arrays.merge<int>(num,num1)     // merge
+   println(num2)
+
+   arrays.shuffle<int>(mut num,2)          // shuffle the first n elements    
+   println(num)
+
+   ```
