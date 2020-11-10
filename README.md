@@ -184,5 +184,12 @@ println(age)                      //             22
 
    arrays.shuffle<int>(mut num,2)          // shuffle the first n elements    
    println(num)
+   
+   arr1 := [1,2,3,4,5,6,7,8,9,10]          // filters even number from array1
+   even := arr1.filter(it%2==0)             
+   println(even)
 
+   arr2 := ['allan','alexander']
+   upper := arr2.map(it.to_upper())        // converts to Uppercase letters.
+   println(upper)
    ```
